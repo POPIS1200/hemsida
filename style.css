@@ -41,7 +41,7 @@ li{
 li:hover{
     
   
-    background-color: rgb(34, 34, 34);
+    background-color: rgb(50, 50, 100);
     
     
     height: 70px;
@@ -50,7 +50,7 @@ li:hover{
 
 
 
-.topBar{
+.navBar{
     background-color: black;
     width: 100%;
     height: 50px;
@@ -155,25 +155,4 @@ html{
   color: transparent;
 }
 
-#bottom{
-  height: 500px;
-  background-color: rgb(66, 66, 66);
 
-}
-header{
-  color: white;
-  font-family: sans-serif;
-  font-size: 75px;
-  width: 100%;
-  position: relative;  
-  right: 50%
-  
-  
-  
-  
-}
-#kontakt{
-  color: red;
-  width: 100%;
-  font-size: 75px;
-}
