@@ -50,6 +50,7 @@ h3, li{
     font-family: Arial;
     font-size: 24px;
     font-weight: bold;
+    color: rgb(20, 20, 20);
 }
 .background{
     background-image:url(../media/luftballong-bak.jpg);
@@ -62,5 +63,8 @@ h3, li{
     background-size: cover; 
     width: 100%;
     height: 100%;
+}
+.download:hover::after, .download::after{
+    background-color: rgba(255,255,255,0)
 }
 
