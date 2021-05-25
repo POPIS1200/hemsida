@@ -67,4 +67,8 @@ h3, li{
 .download:hover::after, .download::after{
     background-color: rgba(255,255,255,0)
 }
+.download{
+    width: 7%;
+    height: 7%;
+}
 
