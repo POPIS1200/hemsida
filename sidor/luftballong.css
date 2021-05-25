@@ -70,6 +70,15 @@ h3, li{
 .download{
     width: 7%;
     height: 7%;
+    display: inline-block;
+    position: relative;
+}
+.downloads, tr{
+    height: 10pc;
     
 }
-
+td{
+    width: 6pc;
+    height: auto;
+    background-color: #123;
+}
