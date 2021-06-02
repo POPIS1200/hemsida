@@ -36,3 +36,18 @@ h2:hover::after{
     width: 5.5rem;
   
 }
+.centered {
+    position: absolute;
+    top: 25pc;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+h1{
+    font-family: Arial;
+    color: white;
+}
+
+.text{
+    width: 100%;
+    background-image: url("../media/bron.jpg");
+}
