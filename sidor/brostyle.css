@@ -53,10 +53,13 @@ h1{
     font-size: 1.5pc;
     position: absolute;
     left: 20%;
+    transform: translateY(-50pc);
 }
 .grej{
     background-image: url("../media/bron.jpg");
     position: absolute;
     background-size: cover;
     width: 100%;
+    color: black;
+
 }
