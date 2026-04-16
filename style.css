@@ -1,6 +1,10 @@
+:root {
+  --side-margin: 25rem;
+}
+
 
 .title{
-  padding: 0 10rem;
+  margin: 0 var(--side-margin);
 }
 
 h1{
@@ -17,30 +21,48 @@ h2{
 }
 
 nav{
-  padding: 0 10rem
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 var(--side-margin);
 }
 
+.searchbarBox{
+  overflow: hidden;
+  height: 2rem;
+  
+}
+
+#searchBar{
+  height: 1.5em;
+  position: absolute;
+  right: 26rem;
+}
+
+
+
 .gallery{
-  padding: 0 10rem;
+  margin: 0 24.5rem;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  
 }
 
 
 .imgBG{
+  display: grid;
   background-color: black;
   padding: 0;
   margin: 0.5rem;
-  width: 30%;
+  width: fit-content;
+  
 }
 .galleryImage{
-  
-  width: 100%;
+  width: 100%;  
   transition: opacity 0.1s linear;
   
 }
 
 .galleryImage:hover{
   opacity: 0.5;
-  background-color: black;
+  
 }
